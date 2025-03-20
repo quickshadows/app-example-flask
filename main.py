@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@ap.route("/")
+@app.route("/")
 def hello():
     return "Timeweb Cloud + Flask = ❤️"
 
